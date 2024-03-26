@@ -13,12 +13,14 @@ In this project, we explore a dataset containing information about e-commerce cu
       -  C. Model performance and evaluation of RNN and FNN
       -  D. Not using Convolutional Neural Networks (CNN): do not have image-related features in dataset
 
-2. Unsupervised Learning Model, Clustering: Implements K-Means, Hierarchical, and DBSCAN clustering algorithms to segment customers based on their behavior.
 
-3. Dimensionality Reduction
-Principal Component Analysis (PCA): Reduces the dimensionality of the dataset using PCA to visualize high-dimensional data and improve model performance.
-t-Distributed Stochastic Neighbor Embedding (t-SNE): Applies t-SNE to visualize the dataset in lower dimensions, preserving local structure.
-Uniform Manifold Approximation and Projection (UMAP): Explores UMAP as an alternative dimensionality reduction technique for visualizing complex datasets.
+   Unsupervised Learning Models:
+2.  Clustering: Implements K-Means, Hierarchical, and DBSCAN clustering algorithms to segment customers based on their behavior.
+
+3.   Dimensionality Reduction:
+- Principal Component Analysis (PCA): Reduces the dimensionality of the dataset using PCA to visualize high-dimensional data and improve model performance.
+- t-Distributed Stochastic Neighbor Embedding (t-SNE): Applies t-SNE to visualize the dataset in lower dimensions, preserving local structure.
+- Uniform Manifold Approximation and Projection (UMAP): Explores UMAP as an alternative dimensionality reduction technique for visualizing complex datasets.
 
 ### Data
 The dataset (data/E-Commerce _Customer_Behavior.csv) contains anonymized information about e-commerce customer behavior. It includes various features such as session details, transaction history, and churn status. Refer to the dataset documentation for more details about each feature.
