@@ -9,7 +9,7 @@ In this project, we explore a dataset containing information about e-commerce cu
 
 1. Data Preprocessing And Build Neural Networks: 
   - A. Feedforward Neural Networks: Utilizes a feedforward neural network to predict customer churn based on various features.
-  - B. Recurrent Neural Networks (RNN): Investigates the use of RNNs to capture sequential patterns in customer behavior.
+  - B. Recurrent Neural Networks (RNN): Investigates the use of RNNs to to predict customer churn based on various features.
   - C. Model performance and evaluation of RNN and FNN
   - D. Not using Convolutional Neural Networks (CNN): do not have image-related features in dataset
 
