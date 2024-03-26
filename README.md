@@ -3,7 +3,9 @@
 ## Overview: 
 In this project, we explore a dataset containing information about e-commerce customer behavior. The dataset includes features such as account length, location code, user ID, session details, transaction history, and churn status. Our goal is to apply advanced machine learning models to predict customer churn, segment customers based on their behavior, and uncover patterns in their interactions.
 
-### Notebooks
+### Notebooks & Repository layout 
+
+0. dataset: E-Commerce _Customer_Behavior.csv
 
 1. Neural Networks
 Feedforward Neural Networks: Utilizes a feedforward neural network to predict customer churn based on various features.
@@ -20,14 +22,6 @@ Uniform Manifold Approximation and Projection (UMAP): Explores UMAP as an altern
 
 ### Data
 The dataset (data/E-Commerce _Customer_Behavior.csv) contains anonymized information about e-commerce customer behavior. It includes various features such as session details, transaction history, and churn status. Refer to the dataset documentation for more details about each feature.
-
-├── notebooks
-│   ├── neural_networks
-│   ├── unsupervised_learning
-│   ├── clustering
-│   ├── dimensionality_reduction
-└── data
-    └── E-Commerce _Customer_Behavior.csv
 
 License
 This project is licensed under the MIT License
