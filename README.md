@@ -19,7 +19,15 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE): Applies t-SNE to visualize 
 Uniform Manifold Approximation and Projection (UMAP): Explores UMAP as an alternative dimensionality reduction technique for visualizing complex datasets.
 
 ### Data
-The dataset (data/E-Commerce _Customer_Behavior.csv) contains anonymized information about e-commerce customer behavior. It includes various features such as session details, transaction history, and churn status. Refer to the dataset documentation for more details about each feature. Will be loaded :  
+The dataset (data/E-Commerce _Customer_Behavior.csv) contains anonymized information about e-commerce customer behavior. It includes various features such as session details, transaction history, and churn status. Refer to the dataset documentation for more details about each feature.
+
+├── notebooks
+│   ├── neural_networks
+│   ├── unsupervised_learning
+│   ├── clustering
+│   ├── dimensionality_reduction
+└── data
+    └── E-Commerce _Customer_Behavior.csv
 
 License
 This project is licensed under the MIT License
