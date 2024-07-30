@@ -1,7 +1,7 @@
 # E-Commerce-Customer-Behavior-Analysis
 
 ## Overview: 
-In this project, we explore a dataset containing information about e-commerce customer behavior. The dataset includes features such as account length, location code, user ID, session details, transaction history, and churn status. Our goal is to apply advanced machine learning models to predict customer churn, segment customers based on their behavior, and uncover patterns in their interactions.
+This repository contains Jupyter notebooks and related resources for analyzing e-commerce customer behavior using various machine learning and deep learning techniques. The primary objective is to predict customer churn and segment customers based on their behavior using a combination of supervised and unsupervised learning methods. The project is structured into the following key components.
 
 ### Notebooks & Repository layout 
 
