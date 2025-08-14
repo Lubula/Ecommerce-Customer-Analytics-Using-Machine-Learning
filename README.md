@@ -1,29 +1,43 @@
-# E-Commerce-Customer-Behavior-Analysis
+# 📊 E-Commerce Customer Analytics with Machine Learning
+- Author: Lubula
+- License: MIT
 
-## Overview: 
-This repository contains Jupyter notebooks and related resources for analyzing e-commerce customer behavior using various machine learning and deep learning techniques. The primary objective is to predict customer churn and segment customers based on their behavior using a combination of supervised and unsupervised learning methods. The project is structured into the following key components.
+## 📌 Overview
+This project explores customer behavior in e-commerce using machine learning and deep learning to:
+- Predict customer churn
+- Segment customers into meaningful clusters
+- Reduce dimensionality for better insights and visualizations
+- By combining supervised and unsupervised learning, this project demonstrates how data science can improve customer retention and marketing strategies.
 
-### Notebooks & Repository layout 
+📂 Repository Structure
+├── data/
+│   └── [ecommerce_customer_behavior.csv](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/E-Commerce%20_Customer_Behavior.csv)
+├── notebooks/
+│   ├── [01_data_preprocessing_and_nn_building.ipynb](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/01_data_preprocessing_and_nn_building.ipynb)
+│   ├── [02_feedforward_neural_network_fnn.ipynb](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/02_feedforward_neural_network_fnn.ipynb)
+│   ├── [03_recurrent_neural_network_rnn.ipynb](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/03_recurrent_neural_network_rnn.ipynb)
+│   ├── [04_model_evaluation_fnn_vs_rnn.ipynb](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/04_model_evaluation_fnn_vs_rnn.ipynb)
+│   ├── [05_clustering_kmeans_hierarchical_dbscan.ipynb](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/05_clustering_kmeans_hierarchical_dbscan.ipynb)
+│   ├── [06_dimensionality_reduction_pca.ipynb](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/06_dimensionality_reduction_pca.ipynb)
+└── README.md
 
-0. dataset: E-Commerce _Customer_Behavior.csv
+🧠 Models Implemented
+- Supervised Learning
+- Feedforward Neural Network (FNN) — baseline churn prediction
+- Recurrent Neural Network (RNN) — sequence modeling of customer sessions
+- Unsupervised Learning
+- K-Means
+- Hierarchical Clustering
+- DBSCAN
+- Dimensionality Reduction
+- PCA (Principal Component Analysis)
 
-1. Data Preprocessing And Build Neural Networks: 
-      -  A. Feedforward Neural Networks: Utilizes a feedforward neural network to predict customer churn based on various features.
-      -  B. Recurrent Neural Networks (RNN): Investigates the use of RNNs to to predict customer churn based on various features.
-      -  C. Model performance and evaluation of RNN and FNN
-      -  D. Not using Convolutional Neural Networks (CNN): do not have image-related features in dataset
+## 📊 Dataset File: [data/ecommerce_customer_behavior.csv](https://github.com/Lubula/Ecommerce-Customer-Analytics-Using-Machine-Learning/blob/main/E-Commerce%20_Customer_Behavior.csv)
 
+## 📊Features:
+- Session details
+- Purchase history
+- Customer demographics
+- Churn status
 
-   Unsupervised Learning Models:
-2.  Clustering: Implements K-Means, Hierarchical, and DBSCAN clustering algorithms to segment customers based on their behavior.
-
-3.   Dimensionality Reduction:
-- Principal Component Analysis (PCA): Reduces the dimensionality of the dataset using PCA to visualize high-dimensional data and improve model performance.
-- t-Distributed Stochastic Neighbor Embedding (t-SNE): Applies t-SNE to visualize the dataset in lower dimensions, preserving local structure.
-- Uniform Manifold Approximation and Projection (UMAP): Explores UMAP as an alternative dimensionality reduction technique for visualizing complex datasets.
-
-### Data
-The dataset (data/E-Commerce _Customer_Behavior.csv) contains anonymized information about e-commerce customer behavior. It includes various features such as session details, transaction history, and churn status. Refer to the dataset documentation for more details about each feature.
-
-License
-This project is licensed under the MIT License
+### Dataset is anonymized and preprocessed for modeling.
